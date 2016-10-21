@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.name        = "ssl_reminder"
   s.version     = SslReminder::VERSION
   s.authors     = ["SRC:CLR"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "srcclr.com"
+  s.email       = ["contact@srcclr.com"]
+  s.homepage    = "https://www.sourceclear.com"
   s.summary     = "SSL Reminder"
   s.description = "SSL Reminder tool reminds of the upcoming expiry of SSL certificates"
   s.license     = "MIT"
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["spec/**/*"]
 
-  s.add_dependency "rails", "~> 4.2.1"
+  s.add_dependency "rails", "~> 5.0.0.1 "
   s.add_dependency "faraday", "~> 0.9.1"
   s.add_dependency "faraday_middleware", "~> 0.9.0"
   s.add_dependency "active_model_serializers"
